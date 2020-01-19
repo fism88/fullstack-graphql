@@ -5,11 +5,15 @@
 
 module.exports = {
   Query: {
-    
+    pets (_, __, context) {
+      return context.models.Pet.findMany({})
+    }
   },
+  /*
   Mutation: {
-    
   },
+  */
+  /*
   Pet: {
     img(pet) {
       return pet.type === 'DOG'
@@ -17,7 +21,10 @@ module.exports = {
         : 'http://placekitten.com/300/300'
     }
   },
+  */
+  /*
   User: {
     
   }
+  */
 }
