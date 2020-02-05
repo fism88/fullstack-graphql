@@ -15,6 +15,12 @@
       "createdAt": "2019-09-15",
       "name": "Apricot",
       "type": "Goldendoodle"
+    },
+    {
+      "id": "GHPKDDLXkG93dx7REDruN",
+      "createdAt": 1580879706451,
+      "name": "Scooby",
+      "type": "hound"
     }
   ]
 }
